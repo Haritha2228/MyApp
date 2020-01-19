@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+
+        android:layout_width="700dp"
+        android:layout_height="2000dp"
+        android:background="@drawable/a"
+        />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/a2"
+        />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="72dp"
+        android:layout_margin="40dp"
+        android:background="#009688"
+        android:paddingLeft="20dp"
+        android:paddingRight="30dp"
+        android:text="Name:"
+        android:textColor="#FDFCFC"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="72dp"
+        android:layout_margin="40dp"
+        android:background="#009688"
+        android:text="Age:......................."
+        android:textSize="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="20dp"
+        android:textColor="#FDFCFC"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="72dp"
+        android:layout_margin="40dp"
+        android:background="#009688"
+        android:text="Contract:..............."
+        android:textSize="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="20dp"
+        android:textColor="#FDFCFC"/><![CDATA[
+
+
+    />
+
+
+
+
+
+    ]]>
+
+    <LinearLayout
+        android:layout_width="433dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_proceed"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="#090E42"
+            android:paddingLeft="20dp"
+            android:paddingRight="30dp"
+            android:text="Process"
+            android:textColor="#FDFCFC"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:background="#090E42"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Exit"
+            android:textColor="#FA0303"
+            android:textSize="20dp" />
+
+
+        />
+    </LinearLayout>
+
+</LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
